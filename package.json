@@ -31,13 +31,9 @@
     "plugins": {
       "autoprefixer": {},
       "postcss-pxtorem": {
-        "rootValue": 133.4,
-        "propList": [
-          "*"
-        ],
-        "selectorBlackList": [
-          ".border"
-        ]
+        "rootValue": 37.5,
+        "propList": ["*"],
+        "selectorBlackList": [".border"]
       }
     }
   },

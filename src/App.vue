@@ -15,15 +15,18 @@ export default {
 </script>
 
 <style lang="scss">
+#app{
+  height: 100px;
+}
 .page{
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 49px;
+  bottom: 98px;
   width: 100%;
   .content{
     position: absolute;
-    top: 44px;
+    top: 0px;
     left: 0;
     bottom: 0;
     width: 100%;

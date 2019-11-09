@@ -5,12 +5,12 @@ export default {
     {
       name:'onlineService',
       path: 'onlineService',
-      component: ()=>import('../pages/home/children//onlineService'),
+      component: ()=>import('../pages/home/children/onlineService/onlineService'),
       children:[
         {
           name:'onlineChat',
           path: 'onlineChat',
-          component: ()=>import('../pages/home/children//onlineChat'),
+          component: ()=>import('../pages/home/children/onlineChat/onlineChat'),
         }
       ]
     },
