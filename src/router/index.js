@@ -6,6 +6,9 @@ import creditRoutes from './credit-routes'
 import mineRoutes from './mine-routes'
 Vue.use(VueRouter)
 
+
+
+
 const routes = [
   {
     path: '/',

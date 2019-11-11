@@ -2,11 +2,11 @@ export default {
   path: '/mine',
   component: ()=>import('../pages/mine/root/Mine'),
   children: [
-    {
-      name:'browse',
-      path: 'browse',
-      component: ()=>import('../pages/mine/children/browse/browse'),
-    },
+    // {
+    //   name:'browse',
+    //   path: 'browse',
+    //   component: ()=>import('../pages/mine/children/browse/browse'),
+    // },
     {
       name:'collect',
       path: 'collect',
