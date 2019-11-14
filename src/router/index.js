@@ -20,7 +20,15 @@ const routes = [
   mineRoutes,
   {
     path: '/login',
-    component: ()=>import('../pages/mine/children/login/login')
+    components: {
+      login : ()=>import('../pages/mine/children/login/login')
+    }
+  },
+  {
+    path: '/resetPassword',
+    components: {
+      login : ()=>import('../pages/mine/children/login/resetPassword')
+    }
   },
   {
     path: '/regiester',
